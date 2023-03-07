@@ -1016,10 +1016,10 @@
   "resolved" "https://registry.npmjs.org/@types/parse-json/-/parse-json-4.0.0.tgz"
   "version" "4.0.0"
 
-"@types/vscode@^1.63.0":
-  "integrity" "sha512-iePu1axOi5WSThV6l2TYcciBIpAlMarjBC8H0y8L8ocsZLxh7MttzwFU3pjoItF5fRVGxHS0Hsvje9jO3yJsfw=="
-  "resolved" "https://registry.npmjs.org/@types/vscode/-/vscode-1.63.0.tgz"
-  "version" "1.63.0"
+"@types/vscode@^1.63.0", "@types/vscode@^1.76.0":
+  "integrity" "sha512-CQcY3+Fe5hNewHnOEAVYj4dd1do/QHliXaknAEYSXx2KEHUzFibDZSKptCon+HPgK55xx20pR+PBJjf0MomnBA=="
+  "resolved" "https://registry.npmjs.org/@types/vscode/-/vscode-1.76.0.tgz"
+  "version" "1.76.0"
 
 "@typescript-eslint/eslint-plugin@^5.1.0":
   "integrity" "sha512-8RTGBpNn5a9M628wBPrCbJ+v3YTEOE2qeZb7TDkGKTDXSj36KGRg92SpFFaR/0S3rSXQxM0Og/kV9EyadsYSBg=="

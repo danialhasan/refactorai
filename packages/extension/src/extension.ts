@@ -40,7 +40,7 @@ export function activate(context: vscode.ExtensionContext) {
 export function prepareWebView(context: vscode.ExtensionContext) {
     const panel = vscode.window.createWebviewPanel(
         "vueWebview",
-        "vue webview",
+        "RefactorAI",
         vscode.ViewColumn.One,
         {
             enableScripts: true,
