@@ -13,6 +13,7 @@
         "packages/*"
     ],
     "scripts": {
-        "watch": "nodemon pipeline.js"
+        "watch": "nodemon pipeline.js",
+        "client:dev":"cd packages/client && npm run tailwind:build"
     }
 }

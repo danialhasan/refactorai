@@ -14,4 +14,5 @@ const exec = util.promisify(cp.exec);
         cp.exec("cd packages/extension/ && npm run compile", childOptions),
     ]);
     cp.execSync("cd packages/extension/ && npm run dev", childOptions);
+    cp.execSync("cd packages/client/ && npm run tailwind:build", childOptions);
 })();
