@@ -1,5 +1,7 @@
 <template>
-    <div class="centered-screen">
+    <div
+        class="w-full h-full bg-gray-800 flex flex-col justify-center justify-items-center"
+    >
         <Code-Input></Code-Input>
         <Code-Output></Code-Output>
     </div>
@@ -26,22 +28,3 @@ export default {
     components: { CodeInput, CodeOutput },
 };
 </script>
-
-<style scoped>
-.centered-screen {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.text-larger {
-    font-size: x-large;
-    margin-bottom: 1rem;
-}
-.text-large {
-    font-size: large;
-    margin-bottom: 1rem;
-}
-</style>
