@@ -14,6 +14,9 @@
     ],
     "scripts": {
         "watch": "nodemon pipeline.js",
-        "client:dev":"cd packages/client && npm run tailwind:build"
+        "client:dev": "cd packages/client && npm run tailwind:build"
+    },
+    "dependencies": {
+        "pinia": "^2.0.33"
     }
 }
