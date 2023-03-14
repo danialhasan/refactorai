@@ -10,7 +10,7 @@ export default defineConfig({
     },
     plugins: [vue()],
     build: {
-        outDir: "../extension/vue-dist",
+        outDir: "dist",
         rollupOptions: {
             output: {
                 entryFileNames: `assets/[name].js`,

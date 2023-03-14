@@ -29,11 +29,13 @@ export default {
     },
     methods: {
         async handleSubmit() {
-            const response = await axios.post("http://localhost:3000/api", {
-                code: this.codeInput,
-                taskPrompt: "Debug"
-            });
-            console.log(response);
+            // const response = await axios.post("http://localhost:3000/api", {
+            //     code: this.codeInput,
+            //     taskPrompt: "Debug"
+            // });
+            // console.log(response);
+            console.log("Testing bruh");
+            // console.log(dataStore);
         },
     },
 };
